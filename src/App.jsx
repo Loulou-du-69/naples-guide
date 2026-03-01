@@ -286,7 +286,7 @@ export default function NaplesGuide() {
       <div className="main-layout" style={{ display:"flex", height:"70vh", position:"relative", zIndex:1 }}>
 
         {/* LEFT — liste */}
-        <div style={{ width:"min(420px,100%)", overflowY:"auto", padding:"20px", borderRight:"1px solid rgba(200,169,126,0.1)", flexShrink:0, height:"100%" }}>
+        <div className="left-panel" style={{ width:"min(420px,100%)", overflowY:"auto", padding:"20px", borderRight:"1px solid rgba(200,169,126,0.1)", flexShrink:0, height:"100%" }}>
           {/* Filters */}
           <div style={{ display:"flex",gap:8,flexWrap:"wrap",marginBottom:20,paddingBottom:16,borderBottom:"1px solid rgba(200,169,126,0.1)" }}>
             {categories.map(cat => (
